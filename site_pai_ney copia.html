@@ -1,0 +1,2589 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Higienic Premium | Limpeza de Sofás, Colchões e Estofados</title>
+<meta name="description" content="Limpeza profissional de sofás, colchões, cadeiras e tapetes. Higienização completa com produtos especializados. Orçamento grátis via WhatsApp!">
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+<!-- Google Analytics (estrutura - substituir G-XXXXXXXX pelo ID real) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXX', {
+    send_page_view: true,
+    custom_map: {
+      dimension1: 'traffic_source',
+      dimension2: 'service_interest',
+      dimension3: 'region'
+    }
+  });
+</script>
+
+<style>
+/* ============================================
+   CSS VARIABLES & RESET
+============================================ */
+:root {
+  --blue-deep: #0A3D62;
+  --blue-mid: #1565C0;
+  --blue-bright: #1E88E5;
+  --blue-light: #E3F2FD;
+  --teal: #00897B;
+  --teal-light: #E0F2F1;
+  --green-accent: #00C896;
+  --white: #FFFFFF;
+  --gray-50: #F8FAFB;
+  --gray-100: #F1F4F8;
+  --gray-200: #E2E8F0;
+  --gray-400: #94A3B8;
+  --gray-600: #475569;
+  --gray-800: #1E293B;
+  --whatsapp: #25D366;
+  --whatsapp-dark: #128C7E;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.08);
+  --shadow-md: 0 4px 20px rgba(0,0,0,0.10);
+  --shadow-lg: 0 10px 40px rgba(0,0,0,0.14);
+  --shadow-xl: 0 20px 60px rgba(0,0,0,0.18);
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+  --font-display: 'Sora', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; font-size: 16px; }
+
+body {
+  font-family: var(--font-body);
+  color: var(--gray-800);
+  background: var(--white);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+img { max-width: 100%; height: auto; display: block; }
+a { text-decoration: none; color: inherit; }
+
+/* ============================================
+   TYPOGRAPHY
+============================================ */
+h1, h2, h3, h4 { font-family: var(--font-display); line-height: 1.2; }
+
+.section-label {
+  display: inline-block;
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--blue-bright);
+  background: var(--blue-light);
+  padding: 6px 14px;
+  border-radius: 100px;
+  margin-bottom: 16px;
+}
+
+.section-title {
+  font-size: clamp(1.75rem, 4vw, 2.75rem);
+  font-weight: 700;
+  color: var(--blue-deep);
+  margin-bottom: 16px;
+}
+
+.section-subtitle {
+  font-size: 1.05rem;
+  color: var(--gray-600);
+  max-width: 560px;
+  line-height: 1.7;
+}
+
+/* ============================================
+   LAYOUT
+============================================ */
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+section { padding: 80px 0; }
+
+/* ============================================
+   BUTTONS
+============================================ */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  font-weight: 600;
+  border-radius: 100px;
+  padding: 14px 28px;
+  cursor: pointer;
+  border: none;
+  transition: var(--transition);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--blue-mid), var(--blue-bright));
+  color: var(--white);
+  box-shadow: 0 4px 20px rgba(21, 101, 192, 0.35);
+}
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(21, 101, 192, 0.45);
+}
+
+.btn-whatsapp {
+  background: linear-gradient(135deg, var(--whatsapp-dark), var(--whatsapp));
+  color: var(--white);
+  box-shadow: 0 4px 20px rgba(37, 211, 102, 0.35);
+  font-size: 1rem;
+  padding: 16px 32px;
+}
+.btn-whatsapp:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(37, 211, 102, 0.45);
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--blue-mid);
+  border: 2px solid var(--blue-mid);
+}
+.btn-outline:hover {
+  background: var(--blue-mid);
+  color: var(--white);
+  transform: translateY(-2px);
+}
+
+.btn-sm {
+  font-size: 0.85rem;
+  padding: 10px 20px;
+}
+
+/* ============================================
+   NAVIGATION
+============================================ */
+nav {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 1000;
+  background: rgba(255,255,255,0.95);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--gray-200);
+  transition: var(--transition);
+}
+
+.nav-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1.25rem;
+  color: var(--blue-deep);
+}
+
+.logo-icon {
+  width: 38px;
+  height: 38px;
+  background: linear-gradient(135deg, var(--blue-mid), var(--green-accent));
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  list-style: none;
+}
+
+.nav-links a {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--gray-600);
+  transition: var(--transition);
+}
+.nav-links a:hover { color: var(--blue-mid); }
+
+.nav-cta { display: flex; align-items: center; gap: 16px; }
+
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  flex-direction: column;
+  gap: 5px;
+  padding: 4px;
+}
+.hamburger span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: var(--gray-800);
+  transition: var(--transition);
+  border-radius: 2px;
+}
+
+.mobile-menu {
+  display: none;
+  position: fixed;
+  top: 70px; left: 0; right: 0;
+  background: white;
+  padding: 24px;
+  border-bottom: 1px solid var(--gray-200);
+  z-index: 999;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: var(--shadow-lg);
+}
+.mobile-menu.open { display: flex; }
+.mobile-menu a {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--gray-800);
+  padding: 8px 0;
+  border-bottom: 1px solid var(--gray-100);
+}
+
+/* ============================================
+   HERO
+============================================ */
+#hero {
+  padding: 140px 0 80px;
+  background: linear-gradient(135deg, #EBF5FF 0%, #F0FAFA 50%, #FAFFFE 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+#hero::before {
+  content: '';
+  position: absolute;
+  top: -40%;
+  right: -10%;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(30,136,229,0.08) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+#hero::after {
+  content: '';
+  position: absolute;
+  bottom: -20%;
+  left: -5%;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(0,200,150,0.07) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: white;
+  border: 1px solid var(--gray-200);
+  border-radius: 100px;
+  padding: 8px 16px;
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--gray-600);
+  margin-bottom: 24px;
+  box-shadow: var(--shadow-sm);
+}
+
+.hero-badge-dot {
+  width: 8px;
+  height: 8px;
+  background: var(--green-accent);
+  border-radius: 50%;
+  animation: pulse-dot 2s ease-in-out infinite;
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.6; transform: scale(1.3); }
+}
+
+.hero-title {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 800;
+  color: var(--blue-deep);
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+.hero-title .highlight {
+  color: var(--blue-bright);
+  position: relative;
+}
+
+.hero-title .highlight::after {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--blue-bright), var(--green-accent));
+  border-radius: 2px;
+}
+
+.hero-subtitle {
+  font-size: 1.1rem;
+  color: var(--gray-600);
+  margin-bottom: 36px;
+  line-height: 1.7;
+}
+
+.hero-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 48px;
+}
+
+.hero-trust {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.trust-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  color: var(--gray-600);
+}
+
+.trust-icon {
+  width: 32px;
+  height: 32px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-sm);
+  font-size: 0.9rem;
+}
+
+/* Before/After Cards */
+.before-after-container {
+  position: relative;
+}
+
+.ba-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.ba-card {
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  position: relative;
+  box-shadow: var(--shadow-lg);
+}
+
+.ba-card-img {
+  width: 100%;
+  aspect-ratio: 3/4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.ba-before .ba-card-img {
+  background: linear-gradient(135deg, #8B7355, #A08050);
+}
+
+.ba-after .ba-card-img {
+  background: linear-gradient(135deg, #1565C0, #00897B);
+}
+
+.ba-label {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: rgba(0,0,0,0.6);
+  color: white;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: 100px;
+}
+
+.ba-after .ba-label { background: rgba(21,101,192,0.85); }
+
+.floating-badge {
+  position: absolute;
+  bottom: -16px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  border-radius: var(--radius-sm);
+  padding: 10px 20px;
+  box-shadow: var(--shadow-md);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+  z-index: 2;
+}
+
+.floating-badge strong {
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  color: var(--teal);
+}
+
+.stars-display { color: #F59E0B; font-size: 0.85rem; }
+
+/* ============================================
+   STATS BAR
+============================================ */
+.stats-bar {
+  background: var(--blue-deep);
+  padding: 28px 0;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+}
+
+.stat-item {
+  text-align: center;
+  padding: 0 20px;
+  position: relative;
+}
+
+.stat-item:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 40px;
+  width: 1px;
+  background: rgba(255,255,255,0.15);
+}
+
+.stat-number {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--green-accent);
+  line-height: 1;
+}
+
+.stat-label {
+  font-size: 0.82rem;
+  color: rgba(255,255,255,0.7);
+  margin-top: 4px;
+}
+
+/* ============================================
+   SERVICES
+============================================ */
+#servicos { background: var(--gray-50); }
+
+.services-header { text-align: center; margin-bottom: 56px; }
+.services-header .section-subtitle { margin: 0 auto; }
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+.service-card {
+  background: white;
+  border-radius: var(--radius-lg);
+  padding: 32px 28px;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--gray-200);
+  transition: var(--transition);
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.service-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--blue-mid), var(--green-accent));
+  opacity: 0;
+  transition: var(--transition);
+}
+
+.service-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-lg);
+  border-color: transparent;
+}
+
+.service-card:hover::before { opacity: 1; }
+
+.service-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.service-icon.blue { background: var(--blue-light); }
+.service-icon.teal { background: var(--teal-light); }
+.service-icon.green { background: #E8F5E9; }
+.service-icon.purple { background: #EDE7F6; }
+
+.service-name {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--blue-deep);
+  margin-bottom: 10px;
+}
+
+.service-desc {
+  font-size: 0.9rem;
+  color: var(--gray-600);
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.service-features {
+  list-style: none;
+  margin-bottom: 24px;
+}
+
+.service-features li {
+  font-size: 0.85rem;
+  color: var(--gray-600);
+  padding: 3px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.service-features li::before {
+  content: '✓';
+  color: var(--teal);
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+/* ============================================
+   PROCESS
+============================================ */
+#processo { background: white; }
+
+.process-header { text-align: center; margin-bottom: 60px; }
+
+.process-steps {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+  position: relative;
+}
+
+.process-steps::before {
+  content: '';
+  position: absolute;
+  top: 32px;
+  left: calc(12.5% + 32px);
+  right: calc(12.5% + 32px);
+  height: 2px;
+  background: linear-gradient(90deg, var(--blue-bright), var(--green-accent));
+}
+
+.process-step {
+  text-align: center;
+  padding: 0 16px;
+  position: relative;
+}
+
+.step-number {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--blue-mid), var(--blue-bright));
+  color: white;
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  box-shadow: 0 4px 20px rgba(21,101,192,0.3);
+  position: relative;
+  z-index: 1;
+}
+
+.step-title {
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--blue-deep);
+  margin-bottom: 8px;
+}
+
+.step-desc {
+  font-size: 0.85rem;
+  color: var(--gray-600);
+  line-height: 1.5;
+}
+
+/* ============================================
+   FORM
+============================================ */
+#orcamento {
+  background: linear-gradient(135deg, var(--blue-deep) 0%, #0D47A1 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+#orcamento::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -20%;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(255,255,255,0.04) 0%, transparent 70%);
+  border-radius: 50%;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 60px;
+  align-items: start;
+}
+
+.form-left h2 {
+  font-size: clamp(1.75rem, 3.5vw, 2.5rem);
+  font-weight: 800;
+  color: white;
+  margin-bottom: 16px;
+  line-height: 1.2;
+}
+
+.form-left p {
+  color: rgba(255,255,255,0.75);
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 36px;
+}
+
+.form-benefits {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.form-benefits li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: rgba(255,255,255,0.85);
+  font-size: 0.9rem;
+}
+
+.benefit-check {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--green-accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+  color: white;
+  flex-shrink: 0;
+}
+
+.form-card {
+  background: white;
+  border-radius: var(--radius-xl);
+  padding: 40px;
+  box-shadow: var(--shadow-xl);
+}
+
+.form-card h3 {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--blue-deep);
+  margin-bottom: 4px;
+}
+
+.form-card .form-subtitle {
+  font-size: 0.85rem;
+  color: var(--gray-400);
+  margin-bottom: 28px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--gray-800);
+  margin-bottom: 6px;
+  font-family: var(--font-display);
+}
+
+.form-group label .required { color: var(--blue-bright); }
+.form-group label .optional {
+  font-weight: 400;
+  color: var(--gray-400);
+  font-size: 0.78rem;
+}
+
+.form-control {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1.5px solid var(--gray-200);
+  border-radius: var(--radius-sm);
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  color: var(--gray-800);
+  transition: var(--transition);
+  background: var(--gray-50);
+  outline: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.form-control:focus {
+  border-color: var(--blue-bright);
+  background: white;
+  box-shadow: 0 0 0 3px rgba(30,136,229,0.12);
+}
+
+.form-control::placeholder { color: var(--gray-400); }
+
+select.form-control { cursor: pointer; }
+
+.form-divider {
+  border: none;
+  border-top: 1px dashed var(--gray-200);
+  margin: 20px 0;
+}
+
+.optional-label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--gray-400);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 16px;
+  display: block;
+}
+
+.form-progress {
+  margin-bottom: 20px;
+}
+
+.progress-bar {
+  height: 4px;
+  background: var(--gray-200);
+  border-radius: 2px;
+  overflow: hidden;
+  margin-bottom: 6px;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--blue-mid), var(--green-accent));
+  border-radius: 2px;
+  width: 0%;
+  transition: width 0.4s ease;
+}
+
+.progress-text {
+  font-size: 0.75rem;
+  color: var(--gray-400);
+  text-align: right;
+}
+
+.form-submit-btn {
+  width: 100%;
+  justify-content: center;
+  font-size: 1rem;
+  padding: 16px;
+  border-radius: var(--radius-sm);
+  margin-top: 8px;
+}
+
+.privacy-note {
+  text-align: center;
+  font-size: 0.75rem;
+  color: var(--gray-400);
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+/* ============================================
+   SOCIAL PROOF
+============================================ */
+#avaliacoes { background: var(--gray-50); }
+
+.reviews-header { text-align: center; margin-bottom: 56px; }
+
+.rating-summary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.big-rating {
+  font-family: var(--font-display);
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: var(--blue-deep);
+  line-height: 1;
+}
+
+.rating-stars { font-size: 1.3rem; }
+
+.rating-meta {
+  font-size: 0.85rem;
+  color: var(--gray-600);
+  text-align: left;
+}
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.review-card {
+  background: white;
+  border-radius: var(--radius-lg);
+  padding: 28px;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--gray-200);
+  transition: var(--transition);
+}
+
+.review-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+}
+
+.review-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.reviewer-avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1rem;
+  color: white;
+  flex-shrink: 0;
+}
+
+.avatar-blue { background: linear-gradient(135deg, var(--blue-mid), var(--blue-bright)); }
+.avatar-teal { background: linear-gradient(135deg, var(--teal), var(--green-accent)); }
+.avatar-purple { background: linear-gradient(135deg, #7B1FA2, #AB47BC); }
+.avatar-orange { background: linear-gradient(135deg, #E65100, #FF6F00); }
+.avatar-red { background: linear-gradient(135deg, #B71C1C, #E53935); }
+.avatar-indigo { background: linear-gradient(135deg, #283593, #3F51B5); }
+
+.reviewer-name {
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--blue-deep);
+}
+
+.review-service {
+  font-size: 0.78rem;
+  color: var(--gray-400);
+}
+
+.review-stars { margin-left: auto; color: #F59E0B; font-size: 0.9rem; }
+
+.review-text {
+  font-size: 0.88rem;
+  color: var(--gray-600);
+  line-height: 1.7;
+  font-style: italic;
+}
+
+.review-date {
+  font-size: 0.75rem;
+  color: var(--gray-400);
+  margin-top: 12px;
+}
+
+.verified-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.72rem;
+  color: var(--teal);
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+/* ============================================
+   AREAS ATENDIDAS
+============================================ */
+#areas { background: white; }
+
+.areas-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: start;
+}
+
+.areas-map-placeholder {
+  background: var(--blue-light);
+  border-radius: var(--radius-lg);
+  padding: 40px;
+  text-align: center;
+  border: 2px dashed var(--blue-mid);
+  min-height: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.map-icon { font-size: 3.5rem; }
+
+.areas-map-placeholder p {
+  color: var(--gray-600);
+  font-size: 0.9rem;
+  max-width: 260px;
+  line-height: 1.6;
+}
+
+.areas-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.area-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--gray-50);
+  border: 1px solid var(--gray-200);
+  border-radius: 100px;
+  padding: 8px 16px;
+  font-size: 0.85rem;
+  color: var(--gray-700);
+  transition: var(--transition);
+}
+
+.area-tag:hover {
+  background: var(--blue-light);
+  border-color: var(--blue-bright);
+  color: var(--blue-mid);
+}
+
+.areas-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.area-tag-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--green-accent);
+  flex-shrink: 0;
+}
+
+/* ============================================
+   FAQ
+============================================ */
+#faq { background: var(--gray-50); }
+
+.faq-header { text-align: center; margin-bottom: 56px; }
+
+.faq-grid {
+  max-width: 780px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.faq-item {
+  background: white;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--gray-200);
+  overflow: hidden;
+  transition: var(--transition);
+}
+
+.faq-item.active {
+  border-color: var(--blue-bright);
+  box-shadow: 0 0 0 3px rgba(30,136,229,0.08);
+}
+
+.faq-question {
+  width: 100%;
+  background: none;
+  border: none;
+  padding: 20px 24px;
+  text-align: left;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--blue-deep);
+  transition: var(--transition);
+}
+
+.faq-question:hover { color: var(--blue-mid); }
+
+.faq-icon {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--blue-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 0.8rem;
+  color: var(--blue-mid);
+  transition: var(--transition);
+}
+
+.faq-item.active .faq-icon {
+  background: var(--blue-mid);
+  color: white;
+  transform: rotate(45deg);
+}
+
+.faq-answer {
+  display: none;
+  padding: 0 24px 20px;
+  font-size: 0.9rem;
+  color: var(--gray-600);
+  line-height: 1.7;
+}
+
+.faq-item.active .faq-answer { display: block; }
+
+/* ============================================
+   CTA FINAL
+============================================ */
+#cta-final {
+  background: linear-gradient(135deg, var(--teal) 0%, var(--blue-mid) 100%);
+  text-align: center;
+  padding: 80px 0;
+}
+
+#cta-final h2 {
+  font-size: clamp(1.75rem, 4vw, 2.75rem);
+  font-weight: 800;
+  color: white;
+  margin-bottom: 16px;
+}
+
+#cta-final p {
+  color: rgba(255,255,255,0.8);
+  font-size: 1.05rem;
+  margin-bottom: 36px;
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.7;
+}
+
+/* ============================================
+   FOOTER
+============================================ */
+footer {
+  background: var(--gray-800);
+  color: rgba(255,255,255,0.75);
+  padding: 60px 0 28px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 48px;
+}
+
+.footer-logo {
+  color: white;
+  margin-bottom: 14px;
+}
+
+.footer-desc {
+  font-size: 0.85rem;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.footer-social {
+  display: flex;
+  gap: 10px;
+}
+
+.social-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.social-btn:hover { background: var(--blue-bright); color: white; }
+
+.footer-title {
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 16px;
+}
+
+.footer-links { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+.footer-links a {
+  font-size: 0.85rem;
+  transition: var(--transition);
+}
+.footer-links a:hover { color: white; }
+
+.footer-contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 0.85rem;
+  margin-bottom: 10px;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  font-size: 0.8rem;
+}
+
+/* ============================================
+   WHATSAPP FLOAT
+============================================ */
+.whatsapp-float {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 12px;
+}
+
+.whatsapp-tooltip {
+  background: white;
+  border-radius: var(--radius-md);
+  padding: 14px 18px;
+  box-shadow: var(--shadow-lg);
+  font-size: 0.85rem;
+  color: var(--gray-800);
+  max-width: 220px;
+  display: none;
+  border: 1px solid var(--gray-200);
+  animation: slideIn 0.3s ease;
+}
+
+.whatsapp-tooltip.show { display: block; }
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.whatsapp-tooltip strong { display: block; margin-bottom: 4px; color: var(--blue-deep); }
+
+.whatsapp-btn {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  background: var(--whatsapp);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 30px rgba(37,211,102,0.45);
+  cursor: pointer;
+  font-size: 1.6rem;
+  transition: var(--transition);
+  position: relative;
+  animation: float-btn 3s ease-in-out infinite;
+}
+
+.whatsapp-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 40px rgba(37,211,102,0.55);
+}
+
+@keyframes float-btn {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+
+.whatsapp-pulse {
+  position: absolute;
+  top: -3px; right: -3px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #FF4444;
+  border: 2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.6rem;
+  color: white;
+  font-weight: 700;
+}
+
+/* ============================================
+   SCROLL PROGRESS
+============================================ */
+.scroll-progress {
+  position: fixed;
+  top: 0; left: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--blue-mid), var(--green-accent));
+  z-index: 9999;
+  transition: width 0.1s linear;
+}
+
+/* ============================================
+   ANIMATIONS
+============================================ */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.fade-in-delay-1 { transition-delay: 0.1s; }
+.fade-in-delay-2 { transition-delay: 0.2s; }
+.fade-in-delay-3 { transition-delay: 0.3s; }
+.fade-in-delay-4 { transition-delay: 0.4s; }
+
+/* ============================================
+   SUCCESS STATE
+============================================ */
+.form-success {
+  display: none;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.form-success.show { display: block; }
+
+.success-icon {
+  width: 80px;
+  height: 80px;
+  background: var(--teal-light);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  margin: 0 auto 20px;
+}
+
+.form-success h3 {
+  font-size: 1.4rem;
+  color: var(--blue-deep);
+  margin-bottom: 10px;
+}
+
+.form-success p {
+  color: var(--gray-600);
+  margin-bottom: 24px;
+}
+
+/* ============================================
+   DATA ANALYTICS PANEL (hidden - dev use)
+============================================ */
+#analytics-panel {
+  display: none;
+  position: fixed;
+  bottom: 100px;
+  left: 20px;
+  background: rgba(10,61,98,0.95);
+  color: white;
+  padding: 16px;
+  border-radius: var(--radius-md);
+  font-family: monospace;
+  font-size: 0.75rem;
+  max-width: 280px;
+  z-index: 9998;
+  backdrop-filter: blur(8px);
+}
+
+/* ============================================
+   RESPONSIVE
+============================================ */
+@media (max-width: 1024px) {
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+  .process-steps { grid-template-columns: 1fr 1fr; }
+  .process-steps::before { display: none; }
+  .process-step { margin-bottom: 24px; }
+}
+
+@media (max-width: 768px) {
+  section { padding: 56px 0; }
+  
+  .nav-links, .nav-cta .btn-primary { display: none; }
+  .hamburger { display: flex; }
+  
+  .hero-grid { grid-template-columns: 1fr; gap: 40px; }
+  .before-after-container { order: -1; }
+  
+  .stats-grid { grid-template-columns: 1fr 1fr; }
+  .stat-item:nth-child(2)::after { display: none; }
+  .stat-item:nth-child(4)::after { display: none; }
+  
+  .process-steps { grid-template-columns: 1fr; }
+  
+  .form-grid { grid-template-columns: 1fr; }
+  .form-row { grid-template-columns: 1fr; }
+  .form-card { padding: 28px 24px; }
+  
+  .areas-grid { grid-template-columns: 1fr; }
+  
+  .footer-grid { grid-template-columns: 1fr; gap: 32px; }
+  
+  .footer-bottom { flex-direction: column; text-align: center; }
+  
+  .hero-title { font-size: 2rem; }
+  .ba-grid { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 480px) {
+  .stats-grid { grid-template-columns: 1fr 1fr; }
+  .hero-actions { flex-direction: column; width: 100%; }
+  .hero-actions .btn { width: 100%; justify-content: center; }
+  .whatsapp-float { bottom: 16px; right: 16px; }
+  .reviews-grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+
+<!-- Scroll Progress Bar -->
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- ============ NAVIGATION ============ -->
+<nav id="navbar">
+  <div class="container nav-inner">
+    <a href="#" class="logo">
+      <img src="https://github.com/DarlanHenricon/Higienic_premium/blob/main/WhatsApp%20Image%202026-04-02%20at%2019.44.50.jpeg?raw=true" alt="Higienic Premium Logo" class="logo-icon" />
+      Higienic Premium
+    </a>
+    <ul class="nav-links">
+      <li><a href="#servicos" onclick="trackClick('nav_servicos')">Serviços</a></li>
+      <li><a href="#avaliacoes" onclick="trackClick('nav_avaliacoes')">Avaliações</a></li>
+      <li><a href="#areas" onclick="trackClick('nav_areas')">Áreas atendidas</a></li>
+      <li><a href="#faq" onclick="trackClick('nav_faq')">FAQ</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="#orcamento" class="btn btn-primary btn-sm" onclick="trackClick('nav_orcamento_btn')">
+        💬 Solicitar orçamento
+      </a>
+      <button class="hamburger" id="hamburgerBtn" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#servicos" onclick="closeMobileMenu(); trackClick('mobile_nav_servicos')">🛋️ Serviços</a>
+  <a href="#avaliacoes" onclick="closeMobileMenu(); trackClick('mobile_nav_avaliacoes')">⭐ Avaliações</a>
+  <a href="#areas" onclick="closeMobileMenu(); trackClick('mobile_nav_areas')">📍 Áreas atendidas</a>
+  <a href="#faq" onclick="closeMobileMenu(); trackClick('mobile_nav_faq')">❓ FAQ</a>
+  <a href="#orcamento" onclick="closeMobileMenu(); trackClick('mobile_nav_orcamento')" class="btn btn-primary" style="text-align:center; justify-content:center; border-radius:8px;">Solicitar orçamento</a>
+</div>
+
+<!-- ============ HERO ============ -->
+<section id="hero">
+  <div class="container">
+    <div class="hero-grid">
+      <div class="hero-content fade-in">
+        <div class="hero-badge">
+          <span class="hero-badge-dot"></span>
+          Atendimento disponível hoje
+        </div>
+        <h1 class="hero-title">
+          Seu sofá limpo, <br>
+          <span class="highlight">higienizado e como novo</span><br>
+          em poucas horas
+        </h1>
+        <p class="hero-subtitle">
+          Limpeza profissional com produtos especializados, eliminando manchas, ácaros e odores. Seu ambiente mais saudável e bonito, sem complicação.
+        </p>
+        <div class="hero-actions">
+          <a href="https://wa.me/5511961635151?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento%20de%20limpeza." 
+             class="btn btn-whatsapp" 
+             target="_blank"
+             onclick="trackWhatsApp('hero')">
+            💬 Solicitar orçamento pelo WhatsApp
+          </a>
+          <a href="#servicos" class="btn btn-outline" onclick="trackClick('hero_ver_servicos')">
+            Ver serviços ↓
+          </a>
+        </div>
+        <div class="hero-trust">
+          <div class="trust-item">
+            <div class="trust-icon">✅</div>
+            <span>Produtos certificados</span>
+          </div>
+          <div class="trust-item">
+            <div class="trust-icon">⚡</div>
+            <span>Secagem rápida</span>
+          </div>
+          <div class="trust-item">
+            <div class="trust-icon">🛡️</div>
+            <span>Satisfação garantida</span>
+          </div>
+        </div>
+      </div>
+      <div class="before-after-container fade-in fade-in-delay-2">
+        <div class="ba-grid">
+          <div class="ba-card ba-before">
+            <div class="ba-card-img">
+              <img src="https://github.com/DarlanHenricon/Higienic_premium/blob/main/WhatsApp%20Image%202026-04-02%20at%2019.53.17.jpeg?raw=true" alt="Sofá sujo antes da limpeza" style="width: 100%; height: 100%; object-fit: cover; border-radius: 16px;">
+            </div>
+            <span class="ba-label">Antes</span>
+          </div>
+          <div class="ba-card ba-after">
+            <div class="ba-card-img">
+              <img src="https://github.com/DarlanHenricon/Higienic_premium/blob/main/WhatsApp%20Image%202026-04-02%20at%2019.53.18.jpeg?raw=true" alt="Sofá limpo depois da limpeza" style="width: 100%; height: 100%; object-fit: cover; border-radius: 16px;">
+            </div>
+            <span class="ba-label">Depois</span>
+          </div>
+        </div>
+        <div class="floating-badge" style="bottom:-14px;">
+          <div class="stars-display">⭐⭐⭐⭐⭐</div>
+          <strong>+2.500 clientes satisfeitos</strong>
+        </div>
+      </div>
+        <div class="floating-badge" style="bottom:-14px;">
+          <div class="stars-display">⭐⭐⭐⭐⭐</div>
+          <strong>+2.500 clientes satisfeitos</strong>
+        </div>
+      </div>
+            <span class="ba-label">Depois</span>
+          </div>
+        </div>
+              </div>
+        </div>
+        <div class="floating-badge" style="bottom:-14px;">
+          <div class="stars-display">⭐⭐⭐⭐⭐</div>
+          <strong>+2.500 clientes satisfeitos</strong>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STATS BAR ============ -->
+<div class="stats-bar">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat-item fade-in">
+        <div class="stat-number">2.500+</div>
+        <div class="stat-label">Clientes atendidos</div>
+      </div>
+      <div class="stat-item fade-in fade-in-delay-1">
+        <div class="stat-number">4.9★</div>
+        <div class="stat-label">Avaliação média</div>
+      </div>
+      <div class="stat-item fade-in fade-in-delay-2">
+        <div class="stat-number">3-6h</div>
+        <div class="stat-label">Tempo de secagem</div>
+      </div>
+      <div class="stat-item fade-in fade-in-delay-3">
+        <div class="stat-number">7 anos</div>
+        <div class="stat-label">De experiência</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ SERVICES ============ -->
+<section id="servicos">
+  <div class="container">
+    <div class="services-header fade-in">
+      <span class="section-label">Nossos serviços</span>
+      <h2 class="section-title">Tudo que você precisa para um lar mais limpo e saudável</h2>
+      <p class="section-subtitle">Utilizamos equipamentos profissionais e produtos hipoalergênicos para garantir o melhor resultado em cada atendimento.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card fade-in" onclick="trackServiceClick('sofa')">
+        <div class="service-icon blue">🛋️</div>
+        <div class="service-name">Limpeza de Sofá</div>
+        <p class="service-desc">Higienização profunda com extração de sujeiras, manchas, odores e ácaros de todos os tipos de sofá.</p>
+        <ul class="service-features">
+          <li>Sofás de 2, 3 e mais lugares</li>
+          <li>Couro, tecido e microfibra</li>
+          <li>Eliminação de 99,9% dos ácaros</li>
+          <li>Aplicação de protetor</li>
+        </ul>
+        <a href="https://wa.me/5511961635151?text=Olá!%20Gostaria%20de%20orçamento%20para%20limpeza%20de%20sofá." 
+           target="_blank" class="btn btn-primary btn-sm" onclick="event.stopPropagation(); trackWhatsApp('servico_sofa')">
+          💬 Solicitar orçamento
+        </a>
+      </div>
+      <div class="service-card fade-in fade-in-delay-1" onclick="trackServiceClick('colchao')">
+        <div class="service-icon teal">🛏️</div>
+        <div class="service-name">Limpeza de Colchão</div>
+        <p class="service-desc">Higienização completa que elimina manchas, suor, fungos e ácaros para um sono mais saudável.</p>
+        <ul class="service-features">
+          <li>Solteiro, casal e queen/king</li>
+          <li>Todos os tipos de colchão</li>
+          <li>Antibacteriano e antifúngico</li>
+          <li>Sem produtos tóxicos</li>
+        </ul>
+        <a href="https://wa.me/5511961635151?text=Olá!%20Gostaria%20de%20orçamento%20para%20limpeza%20de%20colchão." 
+           target="_blank" class="btn btn-primary btn-sm" onclick="event.stopPropagation(); trackWhatsApp('servico_colchao')">
+          💬 Solicitar orçamento
+        </a>
+      </div>
+      <div class="service-card fade-in fade-in-delay-2" onclick="trackServiceClick('cadeiras')">
+        <div class="service-icon green">🪑</div>
+        <div class="service-name">Limpeza de Cadeiras</div>
+        <p class="service-desc">Limpeza especializada para cadeiras de jantar, escritório e poltronas, renovando o visual do seu ambiente.</p>
+        <ul class="service-features">
+          <li>Cadeiras de jantar e escritório</li>
+          <li>Poltronas e reclinadores</li>
+          <li>Remoção de manchas difíceis</li>
+          <li>Odorização inclusa</li>
+        </ul>
+        <a href="https://wa.me/5511961635151?text=Olá!%20Gostaria%20de%20orçamento%20para%20limpeza%20de%20cadeiras." 
+           target="_blank" class="btn btn-primary btn-sm" onclick="event.stopPropagation(); trackWhatsApp('servico_cadeiras')">
+          💬 Solicitar orçamento
+        </a>
+      </div>
+      <div class="service-card fade-in fade-in-delay-3" onclick="trackServiceClick('tapetes')">
+        <div class="service-icon purple">🏠</div>
+        <div class="service-name">Limpeza de Tapetes</div>
+        <p class="service-desc">Higienização a seco e úmida de tapetes e carpetes, recuperando cores e eliminando sujeiras incrustadas.</p>
+        <ul class="service-features">
+          <li>Tapetes persas e modernos</li>
+          <li>Carpetes residenciais</li>
+          <li>Lavagem e higienização</li>
+          <li>Secagem rápida</li>
+        </ul>
+        <a href="https://wa.me/5511961635151?text=Olá!%20Gostaria%20de%20orçamento%20para%20limpeza%20de%20tapetes." 
+           target="_blank" class="btn btn-primary btn-sm" onclick="event.stopPropagation(); trackWhatsApp('servico_tapetes')">
+          💬 Solicitar orçamento
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROCESS ============ -->
+<section id="processo">
+  <div class="container">
+    <div class="process-header fade-in">
+      <span class="section-label">Como funciona</span>
+      <h2 class="section-title">Simples, rápido e sem complicação</h2>
+    </div>
+    <div class="process-steps">
+      <div class="process-step fade-in">
+        <div class="step-number">1</div>
+        <div class="step-title">Solicite o orçamento</div>
+        <p class="step-desc">Envie uma mensagem pelo WhatsApp ou preencha o formulário com os dados do serviço.</p>
+      </div>
+      <div class="process-step fade-in fade-in-delay-1">
+        <div class="step-number">2</div>
+        <div class="step-title">Agendamento</div>
+        <p class="step-desc">Escolha o melhor dia e horário para sua comodidade. Confirmamos em minutos.</p>
+      </div>
+      <div class="process-step fade-in fade-in-delay-2">
+        <div class="step-number">3</div>
+        <div class="step-title">Limpeza profissional</div>
+        <p class="step-desc">Nossa equipe vai até você com todos os equipamentos e produtos necessários.</p>
+      </div>
+      <div class="process-step fade-in fade-in-delay-3">
+        <div class="step-number">4</div>
+        <div class="step-title">Resultado garantido</div>
+        <p class="step-desc">Entregamos o serviço concluído com satisfação garantida ou refazemos sem custo.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FORM ============ -->
+<section id="orcamento">
+  <div class="container">
+    <div class="form-grid">
+      <div class="form-left fade-in">
+        <h2>Receba seu orçamento em minutos</h2>
+        <p>Preencha o formulário abaixo e nossa equipe entrará em contato rapidamente pelo WhatsApp com o melhor preço para você.</p>
+        <ul class="form-benefits">
+          <li>
+            <div class="benefit-check">✓</div>
+            <span>Orçamento grátis e sem compromisso</span>
+          </li>
+          <li>
+            <div class="benefit-check">✓</div>
+            <span>Resposta em menos de 30 minutos</span>
+          </li>
+          <li>
+            <div class="benefit-check">✓</div>
+            <span>Atendimento 7 dias por semana</span>
+          </li>
+          <li>
+            <div class="benefit-check">✓</div>
+            <span>Preços sem surpresas ou taxas ocultas</span>
+          </li>
+          <li>
+            <div class="benefit-check">✓</div>
+            <span>Equipe certificada e de confiança</span>
+          </li>
+        </ul>
+      </div>
+      <div class="form-card fade-in fade-in-delay-1">
+        <h3>Solicitar Orçamento</h3>
+        <p class="form-subtitle">Campos marcados com <span style="color:var(--blue-bright)">*</span> são obrigatórios</p>
+        
+        <!-- Progress Bar -->
+        <div class="form-progress">
+          <div class="progress-bar">
+            <div class="progress-fill" id="formProgress"></div>
+          </div>
+          <div class="progress-text" id="progressText">0% preenchido</div>
+        </div>
+
+        <div id="leadForm">
+          <form id="orcamentoForm" novalidate>
+            <!-- Campos obrigatórios -->
+            <div class="form-row">
+              <div class="form-group">
+                <label for="nome">Nome completo <span class="required">*</span></label>
+                <input type="text" id="nome" name="nome" class="form-control" placeholder="Seu nome" required>
+              </div>
+              <div class="form-group">
+                <label for="whatsapp">WhatsApp <span class="required">*</span></label>
+                <input type="tel" id="whatsapp" name="whatsapp" class="form-control" placeholder="(11) 99999-9999" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="bairro">Bairro / Região <span class="required">*</span></label>
+              <input type="text" id="bairro" name="bairro" class="form-control" placeholder="Ex: Moema, Pinheiros, Santana..." required>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="servico">Tipo de serviço <span class="required">*</span></label>
+                <select id="servico" name="servico" class="form-control" required>
+                  <option value="">Selecione...</option>
+                  <option value="sofa">Sofá</option>
+                  <option value="colchao">Colchão</option>
+                  <option value="cadeiras">Cadeiras / Poltronas</option>
+                  <option value="tapetes">Tapetes / Carpetes</option>
+                  <option value="multiplos">Múltiplos itens</option>
+                  <option value="outros">Outros</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="quantidade">Quantidade de itens <span class="required">*</span></label>
+                <select id="quantidade" name="quantidade" class="form-control" required>
+                  <option value="">Selecione...</option>
+                  <option value="1">1 item</option>
+                  <option value="2">2 itens</option>
+                  <option value="3">3 itens</option>
+                  <option value="4-6">4 a 6 itens</option>
+                  <option value="7+">7 ou mais itens</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="horario">Melhor horário para atendimento <span class="required">*</span></label>
+              <select id="horario" name="horario" class="form-control" required>
+                <option value="">Selecione...</option>
+                <option value="manha">Manhã (8h às 12h)</option>
+                <option value="tarde">Tarde (12h às 18h)</option>
+                <option value="qualquer">Qualquer horário</option>
+                <option value="semana">Dias úteis</option>
+                <option value="fds">Fins de semana</option>
+              </select>
+            </div>
+
+            <hr class="form-divider">
+            <span class="optional-label">Informações opcionais (nos ajudam a atender melhor)</span>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="origem">Como nos conheceu? <span class="optional">(opcional)</span></label>
+                <select id="origem" name="origem" class="form-control">
+                  <option value="">Selecione...</option>
+                  <option value="google">Google</option>
+                  <option value="instagram">Instagram</option>
+                  <option value="facebook">Facebook</option>
+                  <option value="indicacao">Indicação</option>
+                  <option value="outros">Outros</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="orcamento_esperado">Faixa de preço esperada <span class="optional">(opcional)</span></label>
+                <select id="orcamento_esperado" name="orcamento_esperado" class="form-control">
+                  <option value="">Selecione...</option>
+                  <option value="ate200">Até R$ 200</option>
+                  <option value="200-500">R$ 200 – R$ 500</option>
+                  <option value="500-1000">R$ 500 – R$ 1.000</option>
+                  <option value="acima1000">Acima de R$ 1.000</option>
+                </select>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-whatsapp form-submit-btn" onclick="trackFormSubmit()">
+              💬 Enviar via WhatsApp
+            </button>
+
+            <p class="privacy-note">
+              🔒 Seus dados são protegidos. Não fazemos spam.
+            </p>
+          </form>
+        </div>
+
+        <!-- Success State -->
+        <div class="form-success" id="formSuccess">
+          <div class="success-icon">🎉</div>
+          <h3>Solicitação enviada!</h3>
+          <p>Redirecionando você para o WhatsApp. Respondemos em menos de 30 minutos!</p>
+          <a href="#" class="btn btn-primary" onclick="resetForm()">Fazer outra solicitação</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SOCIAL PROOF ============ -->
+<section id="avaliacoes">
+  <div class="container">
+    <div class="reviews-header fade-in">
+      <span class="section-label">Avaliações reais</span>
+      <h2 class="section-title">O que nossos clientes dizem</h2>
+      <div class="rating-summary">
+        <div class="big-rating">4.9</div>
+        <div>
+          <div class="rating-stars">⭐⭐⭐⭐⭐</div>
+          <div class="rating-meta">Baseado em 312 avaliações<br>Google e WhatsApp</div>
+        </div>
+      </div>
+    </div>
+    <div class="reviews-grid">
+      <div class="review-card fade-in">
+        <div class="review-header">
+          <div class="reviewer-avatar avatar-blue">AM</div>
+          <div>
+            <div class="reviewer-name">Ana Martins</div>
+            <div class="review-service">Limpeza de sofá 3 lugares</div>
+          </div>
+          <div class="review-stars">⭐⭐⭐⭐⭐</div>
+        </div>
+        <p class="review-text">"Meu sofá estava com manchas que eu achei que nunca sairiam. Ficou incrível! A equipe foi super profissional, pontuais e o resultado superou minhas expectativas."</p>
+        <div class="review-date">há 2 semanas</div>
+        <div class="verified-badge">✓ Compra verificada</div>
+      </div>
+      <div class="review-card fade-in fade-in-delay-1">
+        <div class="review-header">
+          <div class="reviewer-avatar avatar-teal">RS</div>
+          <div>
+            <div class="reviewer-name">Ricardo Santos</div>
+            <div class="review-service">Limpeza de colchão casal</div>
+          </div>
+          <div class="review-stars">⭐⭐⭐⭐⭐</div>
+        </div>
+        <p class="review-text">"Minha filha tem alergia a ácaros e desde que fizemos a limpeza do colchão ela melhorou muito. Serviço excelente, recomendo demais! Preço justo e ótimo atendimento."</p>
+        <div class="review-date">há 1 mês</div>
+        <div class="verified-badge">✓ Compra verificada</div>
+      </div>
+      <div class="review-card fade-in fade-in-delay-2">
+        <div class="review-header">
+          <div class="reviewer-avatar avatar-purple">CF</div>
+          <div>
+            <div class="reviewer-name">Camila Ferreira</div>
+            <div class="review-service">6 cadeiras de jantar</div>
+          </div>
+          <div class="review-stars">⭐⭐⭐⭐⭐</div>
+        </div>
+        <p class="review-text">"Contratei para limpar as 6 cadeiras de jantar antes do Natal. Ficaram como novas! Muito cuidadosos com o mobiliário. Já agendei para o próximo semestre."</p>
+        <div class="review-date">há 3 semanas</div>
+        <div class="verified-badge">✓ Compra verificada</div>
+      </div>
+      <div class="review-card fade-in">
+        <div class="review-header">
+          <div class="reviewer-avatar avatar-orange">JO</div>
+          <div>
+            <div class="reviewer-name">José Oliveira</div>
+            <div class="review-service">Tapete persa + sofá</div>
+          </div>
+          <div class="review-stars">⭐⭐⭐⭐⭐</div>
+        </div>
+        <p class="review-text">"Tapete persa herdado da minha mãe estava muito sujo. Achei que ia perder. A Higienic Premium fez um milagre! Rapidez, qualidade e preço honesto. Parabéns!"</p>
+        <div class="review-date">há 5 dias</div>
+        <div class="verified-badge">✓ Compra verificada</div>
+      </div>
+      <div class="review-card fade-in fade-in-delay-1">
+        <div class="review-header">
+          <div class="reviewer-avatar avatar-red">ML</div>
+          <div>
+            <div class="reviewer-name">Mariana Lima</div>
+            <div class="review-service">Poltrona + 2 colchões</div>
+          </div>
+          <div class="review-stars">⭐⭐⭐⭐⭐</div>
+        </div>
+        <p class="review-text">"Resultado impressionante! Nunca vi uma limpeza tão profunda. O cheiro de limpo durou semanas. A equipe é educada e muito cuidadosa. Vou com certeza contratar novamente."</p>
+        <div class="review-date">há 2 meses</div>
+        <div class="verified-badge">✓ Compra verificada</div>
+      </div>
+      <div class="review-card fade-in fade-in-delay-2">
+        <div class="review-header">
+          <div class="reviewer-avatar avatar-indigo">FB</div>
+          <div>
+            <div class="reviewer-name">Felipe Barbosa</div>
+            <div class="review-service">Limpeza de sofá L</div>
+          </div>
+          <div class="review-stars">⭐⭐⭐⭐⭐</div>
+        </div>
+        <p class="review-text">"Sofá L que parecia perdido por causa de um derramamento de vinho. A Higienic Premium tirou tudo! Atendimento rápido, pontualidade e resultado excelente. 10 estrelas se pudesse!"</p>
+        <div class="review-date">há 1 semana</div>
+        <div class="verified-badge">✓ Compra verificada</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ AREAS ============ -->
+<section id="areas">
+  <div class="container">
+    <div class="areas-grid">
+      <div class="fade-in">
+        <span class="section-label">Regiões atendidas</span>
+        <h2 class="section-title">Atendemos toda a Grande São Paulo</h2>
+        <p class="section-subtitle" style="margin-bottom: 24px;">Cobrimos mais de 50 bairros com atendimento rápido e agendamento para o mesmo dia (sujeito a disponibilidade).</p>
+        <div class="areas-tags">
+          <a href="https://wa.me/5511961635151?text=Olá!%20Gostaria%20de%20fazer%20um%20orçamento%20para%20a%20região%20Moema" class="area-tag" target="_blank" onclick="trackClick('area_moema')"><span class="area-tag-dot"></span>Moema</a>
+          <a href="https://wa.me/5511961635151?text=Olá!%20Gostaria%20de%20fazer%20um%20orçamento%20para%20a%20região%20Pinheiros" class="area-tag" target="_blank" onclick="trackClick('area_pinheiros')"><span class="area-tag-dot"></span>Pinheiros</a>
+          <a href="https://wa.me/5511961635151?text=Olá!%20Gostaria%20de%20fazer%20um%20orçamento%20para%20a%20região%20Vila%20Mariana" class="area-tag" target="_blank" onclick="trackClick('area_vila_mariana')"><span class="area-tag-dot"></span>Vila Mariana</a>
+          <a href="https://wa.me/5511961635151?text=Olá!%20Gostaria%20de%20fazer%20um%20orçamento%20para%20a%20região%20Itaim%20Bibi" class="area-tag" target="_blank" onclick="trackClick('area_itaim_bibi')"><span class="area-tag-dot"></span>Itaim Bibi</a>
+          <a href="https://wa.me/5511961635151?text=Olá!%20Gostaria%20de%20fazer%20um%20orçamento%20para%20a%20região%20Santana" class="area-tag" target="_blank" onclick="trackClick('area_santana')"><span class="area-tag-dot"></span>Santana</a>
+          <a href="https://wa.me/5511961635151?text=Olá!%20Gostaria%20de%20fazer%20um%20orçamento%20para%20a%20região%20Tatuapé" class="area-tag" target="_blank" onclick="trackClick('area_tatuape')"><span class="area-tag-dot"></span>Tatuapé</a>
+          <a href="https://wa.me/5511961635151?text=Olá!%20Gostaria%20de%20fazer%20um%20orçamento%20para%20a%20região%20Lapa" class="area-tag" target="_blank" onclick="trackClick('area_lapa')"><span class="area-tag-dot"></span>Lapa</a>
+          <a href="https://wa.me/5511961635151?text=Olá!%20Gostaria%20de%20fazer%20um%20orçamento%20para%20a%20região%20Santo%20André" class="area-tag" target="_blank" onclick="trackClick('area_santo_andre')"><span class="area-tag-dot"></span>Santo André</a>
+          <a href="https://wa.me/5511961635151?text=Olá!%20Gostaria%20de%20fazer%20um%20orçamento%20para%20a%20região%20São%20Bernardo" class="area-tag" target="_blank" onclick="trackClick('area_sao_bernardo')"><span class="area-tag-dot"></span>São Bernardo</a>
+          <a href="https://wa.me/5511961635151?text=Olá!%20Gostaria%20de%20fazer%20um%20orçamento%20para%20a%20região%20Guarulhos" class="area-tag" target="_blank" onclick="trackClick('area_guarulhos')"><span class="area-tag-dot"></span>Guarulhos</a>
+          <a href="https://wa.me/5511961635151?text=Olá!%20Gostaria%20de%20fazer%20um%20orçamento%20para%20a%20região%20Osasco" class="area-tag" target="_blank" onclick="trackClick('area_osasco')"><span class="area-tag-dot"></span>Osasco</a>
+          <a href="https://wa.me/5511961635151?text=Olá!%20Gostaria%20de%20fazer%20um%20orçamento%20para%20a%20região%20Diadema" class="area-tag" target="_blank" onclick="trackClick('area_diadema')"><span class="area-tag-dot"></span>Diadema</a>
+          <a href="https://wa.me/5511961635151?text=Olá!%20Gostaria%20de%20fazer%20um%20orçamento%20para%20a%20região%20Carapicuíba" class="area-tag" target="_blank" onclick="trackClick('area_carapicuiba')"><span class="area-tag-dot"></span>Carapicuíba</a>
+          <a href="https://wa.me/5511961635151?text=Olá!%20Gostaria%20de%20fazer%20um%20orçamento%20para%20a%20região%20Mauá" class="area-tag" target="_blank" onclick="trackClick('area_maua')"><span class="area-tag-dot"></span>Mauá</a>
+          <span class="area-tag"><span class="area-tag-dot"></span>+36 bairros</span>
+        </div>
+        <div style="margin-top: 24px;">
+          <a href="https://wa.me/5511961635151?text=Olá!%20Quero%20saber%20se%20atendem%20minha%20região." 
+             target="_blank"
+             class="btn btn-primary btn-sm" onclick="trackWhatsApp('areas_section')">
+            💬 Verificar minha região
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section id="faq">
+  <div class="container">
+    <div class="faq-header fade-in">
+      <span class="section-label">Perguntas frequentes</span>
+      <h2 class="section-title">Tire suas dúvidas</h2>
+      <p class="section-subtitle" style="margin: 0 auto;">Respondemos as perguntas mais comuns para que você possa contratar com total confiança.</p>
+    </div>
+    <div class="faq-grid">
+      <div class="faq-item fade-in">
+        <button class="faq-question" onclick="toggleFaq(this, 'quanto_custa')">
+          Quanto custa a limpeza de um sofá?
+          <div class="faq-icon">+</div>
+        </button>
+        <div class="faq-answer">
+          O preço varia de acordo com o tamanho, tipo de tecido e nível de sujeira. Um sofá de 2 lugares começa a partir de R$ 120, enquanto sofás maiores ou em L podem chegar a R$ 350. Solicite um orçamento gratuito e sem compromisso pelo WhatsApp!
+        </div>
+      </div>
+      <div class="faq-item fade-in fade-in-delay-1">
+        <button class="faq-question" onclick="toggleFaq(this, 'tempo_secagem')">
+          Quanto tempo leva para secar?
+          <div class="faq-icon">+</div>
+        </button>
+        <div class="faq-answer">
+          O tempo de secagem varia de 3 a 6 horas em condições normais de ventilação. Em dias quentes e com ventilação adequada, pode ser ainda mais rápido. Para colchões, recomendamos aguardar pelo menos 4 horas antes de usar.
+        </div>
+      </div>
+      <div class="faq-item fade-in fade-in-delay-2">
+        <button class="faq-question" onclick="toggleFaq(this, 'produtos')">
+          Os produtos utilizados são seguros para crianças e pets?
+          <div class="faq-icon">+</div>
+        </button>
+        <div class="faq-answer">
+          Sim! Utilizamos apenas produtos hipoalergênicos, biodegradáveis e certificados pela ANVISA. São 100% seguros para crianças, idosos e animais domésticos. Após a secagem completa, o ambiente é totalmente seguro.
+        </div>
+      </div>
+      <div class="faq-item fade-in">
+        <button class="faq-question" onclick="toggleFaq(this, 'agenda')">
+          Com quanto tempo de antecedência preciso agendar?
+          <div class="faq-icon">+</div>
+        </button>
+        <div class="faq-answer">
+          Em muitos casos conseguimos atender no mesmo dia ou no dia seguinte, dependendo da disponibilidade. Para garantir o horário preferido, recomendamos agendar com pelo menos 2 dias de antecedência. Fale conosco agora pelo WhatsApp!
+        </div>
+      </div>
+      <div class="faq-item fade-in fade-in-delay-1">
+        <button class="faq-question" onclick="toggleFaq(this, 'manchas')">
+          Manchas antigas saem com a limpeza?
+          <div class="faq-icon">+</div>
+        </button>
+        <div class="faq-answer">
+          Dependendo do tipo e da idade da mancha, conseguimos remover a grande maioria delas. Manchas de vinho, café, gordura e até tinta costumam sair. Algumas manchas muito antigas ou de tintura definitiva podem não sair 100%, mas sempre fazemos o possível e informamos antes de iniciar o serviço.
+        </div>
+      </div>
+      <div class="faq-item fade-in fade-in-delay-2">
+        <button class="faq-question" onclick="toggleFaq(this, 'garantia')">
+          Vocês oferecem garantia no serviço?
+          <div class="faq-icon">+</div>
+        </button>
+        <div class="faq-answer">
+          Sim! Oferecemos garantia de satisfação. Se não ficou como esperado, retornamos sem custo adicional para refazer o serviço. Nossa meta é que você fique 100% satisfeito com o resultado final.
+        </div>
+      </div>
+      <div class="faq-item fade-in">
+        <button class="faq-question" onclick="toggleFaq(this, 'precisa_sair')">
+          Preciso sair de casa durante o serviço?
+          <div class="faq-icon">+</div>
+        </button>
+        <div class="faq-answer">
+          Não! Você pode ficar em casa normalmente. Nossa equipe trabalha de forma discreta e organizada. Apenas pedimos que o ambiente seja ventilado durante e após o serviço para facilitar a secagem.
+        </div>
+      </div>
+      <div class="faq-item fade-in fade-in-delay-1">
+        <button class="faq-question" onclick="toggleFaq(this, 'frequencia')">
+          Com que frequência devo fazer a limpeza?
+          <div class="faq-icon">+</div>
+        </button>
+        <div class="faq-answer">
+          Recomendamos a limpeza profissional de sofás e cadeiras a cada 6 meses para manutenção, e a cada 3 meses para colchões, especialmente se há crianças, pets ou alérgicos na família. Uma limpeza anual já faz grande diferença na higiene do ambiente.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA FINAL ============ -->
+<section id="cta-final">
+  <div class="container fade-in">
+    <h2>Pronto para renovar seus estofados?</h2>
+    <p>Solicite agora um orçamento gratuito e sem compromisso. Nossa equipe responde em minutos!</p>
+    <div style="display:flex; gap:16px; justify-content:center; flex-wrap:wrap;">
+      <a href="https://wa.me/5511961635151?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento%20de%20limpeza." 
+         target="_blank"
+         class="btn btn-whatsapp" onclick="trackWhatsApp('cta_final')">
+        💬 Solicitar orçamento agora
+      </a>
+      <a href="tel:+5511999999999" class="btn" style="background:rgba(255,255,255,0.15); color:white; border: 1px solid rgba(255,255,255,0.3);" onclick="trackClick('cta_final_phone')">
+        📞 Ligar agora
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo logo">
+          <img src="https://github.com/DarlanHenricon/Higienic_premium/blob/main/WhatsApp%20Image%202026-04-02%20at%2019.44.50.jpeg?raw=true" alt="Higienic Premium Logo" class="logo-icon" />
+          Higienic Premium
+        </div>
+        <p class="footer-desc">Especialistas em limpeza e higienização de estofados. Mais de 7 anos transformando ambientes com qualidade e confiança.</p>
+        <div class="footer-social">
+          <a class="social-btn" href="#" onclick="trackClick('social_instagram')" aria-label="Instagram">📷</a>
+          <a class="social-btn" href="#" onclick="trackClick('social_facebook')" aria-label="Facebook">👤</a>
+          <a class="social-btn" href="https://wa.me/5511961635151" target="_blank" onclick="trackWhatsApp('footer')" aria-label="WhatsApp">💬</a>
+          <a class="social-btn" href="#" onclick="trackClick('social_google')" aria-label="Google">🔍</a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-title">Serviços</div>
+        <ul class="footer-links">
+          <li><a href="#servicos" onclick="trackClick('footer_link_sofa')">🛋️ Limpeza de Sofá</a></li>
+          <li><a href="#servicos" onclick="trackClick('footer_link_colchao')">🛏️ Limpeza de Colchão</a></li>
+          <li><a href="#servicos" onclick="trackClick('footer_link_cadeiras')">🪑 Limpeza de Cadeiras</a></li>
+          <li><a href="#servicos" onclick="trackClick('footer_link_tapetes')">🏠 Limpeza de Tapetes</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-title">Links rápidos</div>
+        <ul class="footer-links">
+          <li><a href="#orcamento" onclick="trackClick('footer_link_orcamento')">Solicitar orçamento</a></li>
+          <li><a href="#avaliacoes" onclick="trackClick('footer_link_avaliacoes')">Avaliações</a></li>
+          <li><a href="#areas" onclick="trackClick('footer_link_areas')">Áreas atendidas</a></li>
+          <li><a href="#faq" onclick="trackClick('footer_link_faq')">Perguntas frequentes</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-title">Contato</div>
+        <div class="footer-contact-item">📞 <span>(11) 96163 - 5151</span></div>
+        <div class="footer-contact-item">💬 <span>WhatsApp 24h</span></div>
+        <div class="footer-contact-item">📧 <span>contato@higienicpremium.com.br</span></div>
+        <div class="footer-contact-item">📷 <a href="https://instagram.com/higienic_premium" target="_blank">@higienic_premium</a></div>
+        <div class="footer-contact-item">�📍 <span>São Paulo e Grande SP</span></div>
+        <div class="footer-contact-item">🕐 <span>Seg–Sáb: 8h às 18h<br>Dom: 9h às 15h</span></div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Higienic Premium. Todos os direitos reservados.</span>
+      <span>CNPJ: 00.000.000/0001-00</span>
+      <span>Desenvolvido com ❤️ para conversão</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ WHATSAPP FLOAT ============ -->
+<div class="whatsapp-float">
+  <div class="whatsapp-tooltip" id="whatsappTooltip">
+    <strong>Fale conosco agora! 👋</strong>
+    Resposta em menos de 30 minutos
+  </div>
+  <a href="https://wa.me/5511961635151?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento." 
+     target="_blank"
+     class="whatsapp-btn"
+     id="whatsappFloat"
+     onclick="trackWhatsApp('float_button')"
+     aria-label="Abrir WhatsApp">
+    💬
+    <div class="whatsapp-pulse">1</div>
+  </a>
+</div>
+
+<!-- ============ JAVASCRIPT ============ -->
+<script>
+/* =============================================
+   ANALYTICS & TRACKING ENGINE
+   Substitua G-XXXXXXXX pelo ID real do GA4
+============================================= */
+
+// Estado global de analytics
+const Analytics = {
+  session: {
+    id: Date.now() + '_' + Math.random().toString(36).substr(2, 9),
+    start: Date.now(),
+    pageViews: 1,
+    whatsappClicks: 0,
+    formStarted: false,
+    formCompleted: false,
+    formAbandonTime: null,
+    servicesClicked: [],
+    sectionsVisible: [],
+    scrollDepth: 0,
+    source: getTrafficSource(),
+    device: getDevice()
+  },
+  events: []
+};
+
+function getTrafficSource() {
+  const ref = document.referrer;
+  const params = new URLSearchParams(window.location.search);
+  if (params.get('utm_source')) return params.get('utm_source');
+  if (ref.includes('google')) return 'google';
+  if (ref.includes('instagram')) return 'instagram';
+  if (ref.includes('facebook')) return 'facebook';
+  if (ref === '') return 'direto';
+  return 'referral';
+}
+
+function getDevice() {
+  return /Mobi|Android/i.test(navigator.userAgent) ? 'mobile' : 'desktop';
+}
+
+function logEvent(category, action, label, value) {
+  const event = {
+    timestamp: new Date().toISOString(),
+    timeOnPage: Math.round((Date.now() - Analytics.session.start) / 1000),
+    category, action, label, value,
+    session: Analytics.session.id,
+    device: Analytics.session.device,
+    source: Analytics.session.source
+  };
+  Analytics.events.push(event);
+  
+  // Google Analytics 4
+  if (typeof gtag !== 'undefined') {
+    gtag('event', action, {
+      event_category: category,
+      event_label: label,
+      value: value,
+      custom_source: Analytics.session.source,
+      custom_device: Analytics.session.device
+    });
+  }
+  
+  // Log no console para debugging
+  console.log('📊 Analytics Event:', event);
+  
+  // Salvar no localStorage para exportação
+  saveToLocalStorage(event);
+}
+
+function saveToLocalStorage(event) {
+  try {
+    const existing = JSON.parse(localStorage.getItem('lf_events') || '[]');
+    existing.push(event);
+    // Manter apenas últimos 200 eventos
+    if (existing.length > 200) existing.shift();
+    localStorage.setItem('lf_events', JSON.stringify(existing));
+  } catch(e) {}
+}
+
+// ---- Tracking Functions ----
+
+function trackClick(id) {
+  logEvent('engagement', 'click', id, 1);
+}
+
+function trackWhatsApp(section) {
+  Analytics.session.whatsappClicks++;
+  logEvent('conversion', 'whatsapp_click', section, 1);
+  
+  if (typeof gtag !== 'undefined') {
+    gtag('event', 'conversion', { send_to: 'G-XXXXXXXX/whatsapp_click' });
+  }
+}
+
+function trackServiceClick(service) {
+  if (!Analytics.session.servicesClicked.includes(service)) {
+    Analytics.session.servicesClicked.push(service);
+  }
+  logEvent('services', 'service_view', service, 1);
+}
+
+function trackFormSubmit() {
+  Analytics.session.formCompleted = true;
+  logEvent('conversion', 'form_submit', 'orcamento_form', 1);
+}
+
+// Rastrear abandono de formulário
+let formStartTime = null;
+let formTouched = false;
+
+document.addEventListener('DOMContentLoaded', () => {
+  const formFields = document.querySelectorAll('#orcamentoForm .form-control, #orcamentoForm input');
+  
+  formFields.forEach(field => {
+    field.addEventListener('focus', () => {
+      if (!formTouched) {
+        formTouched = true;
+        formStartTime = Date.now();
+        Analytics.session.formStarted = true;
+        logEvent('form', 'form_start', 'orcamento_form', 1);
+      }
+    });
+    
+    field.addEventListener('input', updateProgress);
+    field.addEventListener('change', updateProgress);
+  });
+});
+
+window.addEventListener('beforeunload', () => {
+  if (formTouched && !Analytics.session.formCompleted) {
+    const timeSpent = formStartTime ? Math.round((Date.now() - formStartTime) / 1000) : 0;
+    logEvent('form', 'form_abandon', `time_${timeSpent}s`, timeSpent);
+  }
+  
+  const sessionDuration = Math.round((Date.now() - Analytics.session.start) / 1000);
+  logEvent('session', 'session_end', `duration_${sessionDuration}s`, sessionDuration);
+});
+
+// ---- Scroll Depth Tracking ----
+const scrollMilestones = [25, 50, 75, 90, 100];
+let tracked = new Set();
+
+window.addEventListener('scroll', throttle(() => {
+  const scrolled = Math.round((window.scrollY / (document.body.scrollHeight - window.innerHeight)) * 100);
+  Analytics.session.scrollDepth = Math.max(Analytics.session.scrollDepth, scrolled);
+  
+  scrollMilestones.forEach(m => {
+    if (scrolled >= m && !tracked.has(m)) {
+      tracked.add(m);
+      logEvent('engagement', 'scroll_depth', `${m}%`, m);
+    }
+  });
+  
+  // Scroll progress bar
+  document.getElementById('scrollProgress').style.width = scrolled + '%';
+}, 200));
+
+// ---- Section Visibility Tracking ----
+const sectionObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      const id = entry.target.id;
+      if (id && !Analytics.session.sectionsVisible.includes(id)) {
+        Analytics.session.sectionsVisible.push(id);
+        logEvent('engagement', 'section_view', id, 1);
+      }
+    }
+  });
+}, { threshold: 0.3 });
+
+document.querySelectorAll('section[id]').forEach(s => sectionObserver.observe(s));
+
+// ---- Fade-in Animations ----
+const fadeObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+    }
+  });
+}, { threshold: 0.1 });
+
+document.querySelectorAll('.fade-in').forEach(el => fadeObserver.observe(el));
+
+/* =============================================
+   FORM LOGIC
+============================================= */
+
+function updateProgress() {
+  const required = document.querySelectorAll('#orcamentoForm [required]');
+  let filled = 0;
+  required.forEach(f => { if (f.value.trim()) filled++; });
+  const pct = Math.round((filled / required.length) * 100);
+  document.getElementById('formProgress').style.width = pct + '%';
+  document.getElementById('progressText').textContent = pct + '% preenchido';
+}
+
+// WhatsApp phone mask
+const whatsappInput = document.getElementById('whatsapp');
+if (whatsappInput) {
+  whatsappInput.addEventListener('input', function() {
+    let v = this.value.replace(/\D/g, '');
+    if (v.length <= 11) {
+      v = v.replace(/^(\d{2})(\d)/, '($1) $2');
+      v = v.replace(/(\d{5})(\d)/, '$1-$2');
+    }
+    this.value = v;
+  });
+}
+
+// Form submit
+document.getElementById('orcamentoForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  
+  const nome = document.getElementById('nome').value;
+  const whatsapp = document.getElementById('whatsapp').value;
+  const bairro = document.getElementById('bairro').value;
+  const servico = document.getElementById('servico').value;
+  const quantidade = document.getElementById('quantidade').value;
+  const horario = document.getElementById('horario').value;
+  const origem = document.getElementById('origem').value;
+  const faixaPreco = document.getElementById('orcamento_esperado').value;
+
+  if (!nome || !whatsapp || !bairro || !servico || !quantidade || !horario) {
+    alert('Por favor, preencha todos os campos obrigatórios.');
+    return;
+  }
+
+  const servicoMap = {
+    sofa: 'Sofá', colchao: 'Colchão', cadeiras: 'Cadeiras/Poltronas',
+    tapetes: 'Tapetes/Carpetes', multiplos: 'Múltiplos itens', outros: 'Outros'
+  };
+
+  const msg = encodeURIComponent(
+    `Olá! Gostaria de solicitar um orçamento:\n\n` +
+    `👤 Nome: ${nome}\n` +
+    `📍 Bairro: ${bairro}\n` +
+    `🛋️ Serviço: ${servicoMap[servico] || servico}\n` +
+    `📦 Quantidade: ${quantidade}\n` +
+    `🕐 Horário: ${horario}\n` +
+    (origem ? `📣 Como conheceu: ${origem}\n` : '') +
+    (faixaPreco ? `💰 Faixa de preço: ${faixaPreco}\n` : '') +
+    `\nAguardo o orçamento! 😊`
+  );
+
+  // Track conversion
+  logEvent('conversion', 'form_complete', servico, 1);
+  if (typeof gtag !== 'undefined') {
+    gtag('event', 'generate_lead', {
+      currency: 'BRL',
+      value: 150,
+      service: servico,
+      region: bairro,
+      source: origem || Analytics.session.source
+    });
+  }
+
+  // Show success
+  document.getElementById('leadForm').style.display = 'none';
+  document.getElementById('formSuccess').classList.add('show');
+
+  // Open WhatsApp
+  setTimeout(() => {
+    window.open(`https://wa.me/5511961635151?text=${msg}`, '_blank');
+  }, 800);
+});
+
+function resetForm() {
+  document.getElementById('orcamentoForm').reset();
+  document.getElementById('leadForm').style.display = 'block';
+  document.getElementById('formSuccess').classList.remove('show');
+  updateProgress();
+}
+
+/* =============================================
+   FAQ
+============================================= */
+function toggleFaq(btn, id) {
+  const item = btn.closest('.faq-item');
+  const isOpen = item.classList.contains('active');
+  
+  document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
+  
+  if (!isOpen) {
+    item.classList.add('active');
+    logEvent('engagement', 'faq_open', id, 1);
+  }
+}
+
+/* =============================================
+   NAVIGATION
+============================================= */
+document.getElementById('hamburgerBtn').addEventListener('click', () => {
+  document.getElementById('mobileMenu').classList.toggle('open');
+});
+
+function closeMobileMenu() {
+  document.getElementById('mobileMenu').classList.remove('open');
+}
+
+// Close menu on outside click
+document.addEventListener('click', (e) => {
+  if (!e.target.closest('#mobileMenu') && !e.target.closest('#hamburgerBtn')) {
+    closeMobileMenu();
+  }
+});
+
+/* =============================================
+   WHATSAPP TOOLTIP
+============================================= */
+setTimeout(() => {
+  document.getElementById('whatsappTooltip').classList.add('show');
+  setTimeout(() => {
+    document.getElementById('whatsappTooltip').classList.remove('show');
+  }, 5000);
+}, 3000);
+
+/* =============================================
+   A/B TEST STRUCTURE
+============================================= */
+const ABTest = {
+  variant: Math.random() > 0.5 ? 'A' : 'B',
+  
+  run() {
+    // Exemplo de teste A/B no título principal
+    if (this.variant === 'B') {
+      const heroTitle = document.querySelector('.hero-title');
+      if (heroTitle) {
+        // Variante B: título alternativo
+        // heroTitle.innerHTML = 'Higienização <span class="highlight">profissional</span><br>no conforto da sua casa';
+      }
+    }
+    logEvent('ab_test', 'variant_assigned', this.variant, 1);
+    if (typeof gtag !== 'undefined') {
+      gtag('event', 'ab_test', { variant: this.variant, test: 'hero_title' });
+    }
+  }
+};
+ABTest.run();
+
+/* =============================================
+   DATA EXPORT (para Power BI / análise)
+============================================= */
+window.exportAnalyticsData = function() {
+  const data = {
+    session: Analytics.session,
+    events: Analytics.events,
+    localEvents: JSON.parse(localStorage.getItem('lf_events') || '[]'),
+    exportedAt: new Date().toISOString()
+  };
+  
+  const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `analytics_${Date.now()}.json`;
+  a.click();
+  
+  console.log('📊 Dados exportados com sucesso!');
+  return data;
+};
+
+// Expor dados para acesso externo (Power BI webhook, etc.)
+window.getAnalyticsData = () => ({
+  session: Analytics.session,
+  events: Analytics.events,
+  summary: {
+    source: Analytics.session.source,
+    device: Analytics.session.device,
+    timeOnSite: Math.round((Date.now() - Analytics.session.start) / 1000),
+    scrollDepth: Analytics.session.scrollDepth,
+    whatsappClicks: Analytics.session.whatsappClicks,
+    formStarted: Analytics.session.formStarted,
+    formCompleted: Analytics.session.formCompleted,
+    servicesViewed: Analytics.session.servicesClicked,
+    sectionsViewed: Analytics.session.sectionsVisible,
+    abVariant: ABTest.variant
+  }
+});
+
+/* =============================================
+   UTILITIES
+============================================= */
+function throttle(fn, ms) {
+  let last = 0;
+  return (...args) => {
+    const now = Date.now();
+    if (now - last >= ms) { last = now; fn(...args); }
+  };
+}
+
+// Log session start
+logEvent('session', 'session_start', Analytics.session.source, 1);
+
+console.log(`
+🧹 Higienic Premium Analytics Ativo
+📊 Session ID: ${Analytics.session.id}
+📱 Dispositivo: ${Analytics.session.device}
+🔗 Origem: ${Analytics.session.source}
+🧪 Variante A/B: ${ABTest.variant}
+
+Comandos disponíveis:
+→ exportAnalyticsData()  — exporta JSON para Power BI
+→ getAnalyticsData()     — retorna dados da sessão atual
+`);
+</script>
+
+</body>
+</html>
